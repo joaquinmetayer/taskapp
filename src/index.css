@@ -38,8 +38,8 @@ h1{
     width: 300px;
     margin: 10px;
 }
-.card p, h3{
-    padding-bottom: 15px;
+.card p{
+    padding: 10px 0;
 }
 button{
     padding: 10px;
@@ -68,7 +68,6 @@ input, textarea, .button-add{
     transition: 0.25s;
     cursor: pointer;
 }
-
 .button-delete{
     background-color: #1e2024;
     width: 100%;
