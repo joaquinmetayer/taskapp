@@ -3,7 +3,6 @@ import { tasks as data } from "../data/tasks";
 
 export const TaskContext = createContext();
 
-
 export function TaskContextProvider(props) {
   const [tasks, setTasks] = useState([]);
 
