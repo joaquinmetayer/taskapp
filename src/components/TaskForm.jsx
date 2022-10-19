@@ -29,6 +29,7 @@ function TaskForm() {
         placeholder="Task description"
         onChange={(e) => setDescription(e.target.value)}
         value={description}
+        required
       ></textarea>
       <button className="button-add">Add task</button>
     </form>
