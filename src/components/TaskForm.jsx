@@ -3,6 +3,8 @@ import { tasks } from "../data/tasks";
 import { TaskContext } from "../context/TaskContext";
 
 function TaskForm() {
+  // declaro hooks para agregar / modificar elementos
+  // en react para modificicar variables no podemos hacerlas como lo haciamos con js
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const { createTask } = useContext(TaskContext);
